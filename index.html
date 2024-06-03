@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivang Kashyap Porfolio Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/11a55a6c46.js" crossorigin="anonymous"></script> 
+  
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images (1).jpeg" alt="logo_Image" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">AboutMe</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">ContectMe</a></li>
+                    <i class="fas fa-light fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+    
+               
+           
+            <div class="main">
+            <div class="header-text">
+                <h1>Hi, I'm <br><span>Shivang</span> Kashyap<br>From India </h1>
+                <h3 style="font-weight: bold">A Web Developer</h3>
+                <div class="social-icons">     
+                    <a href="https://www.linkedin.com/in/shivang-kashyap-b400ba292" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a 
+                    href="resume - Shivang Kashyap.pdf" 
+                    download="ResumeVikasDewangan" 
+                    class="main-resume-btn">Download CVV</a>
+                </div>
+            </div>
+            
+            <div class="header-img">
+                <img src="mainIMG (3).png" alt="" class="main-img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<img src="mainIMG (3).png" alt="" class="main-img-2">
+
+ <!-- About Section    -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="mainIMG (3).png" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm a <b style="color: rgb(214, 15, 15);">1st</b> year student pursuing B.Tech in Computer Science at BIT Durg.I like to  <b style="color: rgb(214, 15, 15);">Travel</b> and Play Cricket <b style="color: rgb(214, 15, 15);">also Reading books</b>  I'm passionate about learning<b style="color: rgb(214, 15, 15);">New Things</b>. 
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        
+                        
+                    </div>
+                    <div  class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br><br>HTML <br><br> CSS <br><br> JavaScript</li>
+                        </ul>
+                    </div>
+                   
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------Services-------- -->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web <br> Design</h2>
+                <p>Can Design a website for you with full functionality and Responsivness</p>
+                <a href="">learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-share-nodes"></i>
+                <h2>Frontend <br> Development</h2>
+                <p>I can make a backend for your Website with Database ,which can handle all your request from client side and give him/her a sutaible response</p>
+                <a href="">learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------projects -->
+
+ 
+
+<!-- ------contect me---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shivangkashyap02@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-8849124***</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shivang-kashyap-b400ba292" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a 
+                    href="resume - Shivang Kashyap.pdf" 
+                    download="ResumeVikasDewangan" 
+                    class="main-resume-btn">Download CVV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="#"  >
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <textarea name="msg" id="msg" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer> 
+ 
+    
+       
+ 
+   <div class="social-icons">
+         
+        <a href="https://www.linkedin.com/in/shivang-kashyap-b400ba292" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+       
+ 
+    </div>
+      
+        <div class="copyright"><p>&copy; DevChef Private Limited</p></div>
+            <div class="f-info-links">
+                <a href="" class="footer-links">Privacy</a>
+                <a href="" class="footer-links">terms</a>
+            
+        </div>
+   
+</footer>
+    <script>
+        let tabLinks = document.getElementsByClassName("tab-links");
+        let tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName){
+          for(tablink of tabLinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabContents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        let sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-220px";
+        }
+        
+    </script>
+
+     <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
